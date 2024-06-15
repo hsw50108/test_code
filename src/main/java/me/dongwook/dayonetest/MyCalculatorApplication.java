@@ -9,7 +9,7 @@ public class MyCalculatorApplication {
 
         myCalculator.minus(2.0); // 8
 
-        myCalculator.multuplu(2.0); // 16
+        myCalculator.multiply(2.0); // 16
 
         myCalculator.divide(2.0); // 8
 

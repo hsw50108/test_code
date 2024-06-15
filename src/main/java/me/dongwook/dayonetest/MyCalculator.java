@@ -22,7 +22,7 @@ public class MyCalculator {
         return this;
     }
 
-    public MyCalculator multuplu(Double number) {
+    public MyCalculator multiply(Double number) {
         this.result *= number;
         return this;
     }

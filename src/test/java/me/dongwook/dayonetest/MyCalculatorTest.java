@@ -37,7 +37,7 @@ class MyCalculatorTest {
     @DisplayName("MyCalculator 곱셈 테스트")
     void multiplyTest() {
         MyCalculator myCalculator = new MyCalculator(10.0);
-        myCalculator.multuplu(2.0);
+        myCalculator.multiply(2.0);
         Assertions.assertEquals(20.0, myCalculator.getResult());
     }
 
@@ -55,12 +55,11 @@ class MyCalculatorTest {
         // given
         MyCalculator myCalculator = new MyCalculator(0.0);
 
-
         // when
         Double result = myCalculator
                 .add(10.0)
                 .minus(4.0)
-                .multuplu(2.0)
+                .multiply(2.0)
                 .divide(3.0)
                 .getResult();
 
